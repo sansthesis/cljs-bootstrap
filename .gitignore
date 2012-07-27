@@ -1,0 +1,9 @@
+.project
+.settings
+.classpath
+.lein*
+
+target
+bin
+
+*~
