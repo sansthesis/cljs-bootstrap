@@ -11,7 +11,9 @@
 
 (defn build-cljs
   [& args]
-  (build "src/main/cljs" (merge default-opts (apply hash-map args))))
+  (let [opts (merge default-opts (apply hash-map args))]
+    (build "src/main/cljs" opts)
+    opts))
 
 (defn clean
   []

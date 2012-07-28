@@ -1,5 +1,10 @@
+.project
+.settings
+.classpath
+.lein*
 pom.xml
 *jar
-/lib/
-/classes/
-.lein-deps-sum
+lib
+classes
+target
+*~
